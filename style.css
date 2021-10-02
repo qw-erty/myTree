@@ -15,4 +15,6 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
+header > h1{
+  align-items: center;
+}
