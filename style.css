@@ -1,0 +1,8 @@
+:root{
+    --dark-gray :  rgb(26, 25, 25); 
+}
+
+body{
+    margin:0;
+    background-color:var(--dark-gray)
+}
