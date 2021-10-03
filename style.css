@@ -17,3 +17,12 @@ body {
 header > h1 {
 	align-items: center;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(7, 99, 12, 0.637);
+  color: white;
+  text-align: center;  
+}
