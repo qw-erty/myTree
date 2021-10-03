@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
 h1 {
 	color: #32502e;
 	font-family: sans-serif;
@@ -46,15 +48,19 @@ font-size: 17px;
 
 .navbar div.title{
   color: #32502E;
-  font-family: sans-serif;
+  font-family: 'Oleo Script';
 
 }
 
 .navbar a:hover{
   background-color: #7e9e81;
 }
+.navbar-right{
+  float: right;
+  
+  }
 
-
+/*End of Navbar*/
 
 .container
 {
@@ -69,10 +75,13 @@ font-size: 17px;
   margin-bottom: 10px;
 }
 
-.navbar-right{
-float: right;
-
+/*LOGO*/
+.logo{
+  border-radius: 50%;
 }
+/*End of LOGO*/
+
+
 .card{
   margin: 20px;
   padding: 10px;
