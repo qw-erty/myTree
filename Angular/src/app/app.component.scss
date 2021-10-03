@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap');
+
+h1 {
+	color: #32502e;
+	font-family: sans-serif;
+}
+
+body {
+	background-color: wheat;
+}
+
+.container {
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+header > h1 {
+	align-items: center;
+   margin: 5px 0 0 0;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(7, 99, 12, 0.637);
+  color: white;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar{
+  border-radius: 15px;
+  font-weight: bold;
+  background-color:#85a88a;
+  overflow: hidden;
+}
+
+.navbar a, .navbar div.title{
+float: left;
+color: #32502E;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.navbar div.title{
+  color: #32502E;
+  font-family: 'Oleo Script';
+
+}
+
+.navbar a:hover{
+  background-color: #7e9e81;
+}
+.navbar-right{
+  float: right;
+
+  }
+
+/*End of Navbar*/
+
+.container
+{
+    margin:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.header{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/*LOGO*/
+.logo{
+  border-radius: 50%;
+}
+/*End of LOGO*/
+
+
+.card{
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+
+  flex-direction: column;
+  border-radius: 25px;
+  border: 5px soild #000;
+}
+
+
+.elder{
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.elder img{
+  max-width: 100%;
+  padding: 20px;
+}
+
+.tree-image{
+  width: 200px;
+  height: 200px;
+  max-width: 200px;
+}
+
