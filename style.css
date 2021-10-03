@@ -1,22 +1,30 @@
-h1{
-  color: #32502E;
-  font-family: sans-serif;
+h1 {
+	color: #32502e;
+	font-family: sans-serif;
 }
 
-body{
-    background-color:wheat;
+body {
+	background-color: wheat;
 }
 
-.container
-{
-    margin:10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.container {
+	margin: 10px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
 }
-header > h1{
-  align-items: center;
+header > h1 {
+	align-items: center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(7, 99, 12, 0.637);
+  color: white;
+  text-align: center;  
 }
 
 /* Navbar */
