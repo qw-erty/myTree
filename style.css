@@ -46,12 +46,23 @@ font-size: 17px;
 
 .navbar div.title{
   color: #32502E;
+  font-family: sans-serif;
+
 }
 
 .navbar a:hover{
   background-color: #7e9e81;
 }
 
+
+
+.container
+{
+    margin:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 
 .header{
   padding: 10px;
