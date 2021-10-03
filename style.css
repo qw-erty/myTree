@@ -4,17 +4,42 @@ h1{
 }
 
 body{
-    background-color:wheat;
+   
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(120deg,#cade ,teal);
+     height: 100vh;
 }
 
-.container
-{
-    margin:10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
+#heading{
+  
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
-header > h1{
+
+.matrix{
+  margin-top: 50px;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 300px 300px 300px ;
+  grid-template-rows: 250px 250px 250px ;
+  row-gap: 100px;
+  column-gap: 25px;
+}
+
+.content{
+  display: flex;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
+  transition: all 3s ease-in;
+}
+.content:hover{
+  
+  height: 312px;
+  width: 260px;
+
+  background-image: linear-gradient(60deg,grey,orange);
 }
