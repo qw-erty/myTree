@@ -16,6 +16,7 @@ body {
 }
 header > h1 {
 	align-items: center;
+   margin: 5px 0 0 0;
 }
 .footer {
   position: fixed;
@@ -51,6 +52,27 @@ font-size: 17px;
   background-color: #7e9e81;
 }
 
+
+.header{
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
 .navbar-right{
 float: right;
+
+}
+.card{
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+  
+  flex-direction: column;
+  border-radius: 25px;
+  border: 5px soild #000;
+}
+.tree-image{
+  width: 200px;
+  height: 200px;
+  max-width: 200px;
 }
