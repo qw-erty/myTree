@@ -82,8 +82,23 @@ float: right;
   border-radius: 25px;
   border: 5px soild #000;
 }
+
+
+.elder{
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.elder img{
+  max-width: 100%;
+  padding: 20px;
+}
+
 .tree-image{
   width: 200px;
   height: 200px;
   max-width: 200px;
 }
+
