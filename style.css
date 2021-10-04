@@ -9,6 +9,10 @@ body {
 	background-color: wheat;
 }
 
+.imageTree{
+  border-radius : 100% ;
+}
+
 .container {
 	margin: 10px;
 	display: flex;
