@@ -2,13 +2,16 @@
 
 h1 {
 	color: #32502e;
-	font-family: sans-serif;
+	font-family: 'Oleo Script', sans-serif;
+  font-weight: 700;
 }
 
 body {
 	background-color: wheat;
 }
-
+center {
+  margin-bottom: 40px;
+}
 .container {
 	margin: 10px;
 	display: flex;
