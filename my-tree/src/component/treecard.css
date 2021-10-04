@@ -1,0 +1,25 @@
+.mainContent{
+  box-sizing: border-box;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.mainContent:hover{
+    border: 2px solid #5bc58b;  
+    border-radius: 10px;
+    transition: 0.4s;
+}
+
+.section{
+    width: 50%;
+}
+
+.imgSection > img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}

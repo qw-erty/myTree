@@ -1,0 +1,27 @@
+.contactContainer{
+    margin: 50px 100px;
+
+}
+
+.contactList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkk{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.avatar{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+    cursor: pointer;
+}
