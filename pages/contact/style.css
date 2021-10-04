@@ -1,0 +1,29 @@
+/* Navbar START */
+.navbar {
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: #85a88a;
+    overflow: hidden;
+  }
+  
+  .navbar a,
+  .navbar div.title {
+    float: left;
+    color: #32502e;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .navbar div.title {
+    color: #32502e;
+    font-family: "Oleo Script";
+  }
+  
+  .navbar a:hover {
+    background-color: #7e9e81;
+  }
+  .navbar-right {
+    float: right;
+  }
+  /* Navbar END */
