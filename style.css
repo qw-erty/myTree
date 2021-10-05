@@ -36,11 +36,13 @@ header > h1 {
 }
 
 /* Navbar */
-.navbar {
+#mainnavbar{
   border-radius: 15px;
   font-weight: bold;
   background-color: #85a88a;
-  overflow: hidden;
+  display: flex;
+  justify-content: space-evenly;
+  gap:40vw;
 }
 
 .navbar a,
@@ -66,16 +68,37 @@ header > h1 {
 
 /*End of Navbar*/
 
-.container {
-  margin: 10px;
+.containerbody{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  /* gap: 8vw;  */
+  justify-content: space-evenly;
 }
-.header {
-  padding: 10px;
-  margin-bottom: 10px;
+.image>img{
+  height: 20vw;
+  width: 20vw;
+}
+.content{
+  width: 40vw;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.content>h5 >strong{
+  font-family:'Dancing Script';
+  font-size: 2.4vw;
+}
+.content>h6{
+  font-family: 'Cookie', cursive;
+  font-size: 2vw;
+}
+.content>h5{
+  /* font-family: 'Cabin Sketch', cursive; */
+  font-family: 'Jacques Francois Shadow', cursive;
+  font-family: 'Metal Mania', cursive;
+  font-size: 1.7vw;
 }
 
 /*LOGO*/
