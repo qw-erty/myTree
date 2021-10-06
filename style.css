@@ -42,29 +42,30 @@ header > h1 {
 
 /* Navbar */
 .navbar {
-  border-radius: 15px;
+  height: 10%;
+  text-align: center;
   font-weight: bold;
+  padding-right: 100px;
   background-color: #85a88a;
-  overflow: hidden;
 }
 
-.navbar a,
-.navbar div.title {
+.navbar a {
   float: left;
-  color: #32502e;
+  color: #fff;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
 
-.navbar div.title {
-  color: #32502e;
+.title {
+  color: #fff;
+  justify-content: center;
   font-family: "Oleo Script";
 }
-
 .navbar a:hover {
-  background-color: #7e9e81;
+  color: #32502e;
 }
+
 .navbar-right {
   float: right;
 }
@@ -85,6 +86,7 @@ header > h1 {
 
 /*LOGO*/
 .logo {
+  padding: 15px 15px 15px;
   border-radius: 50%;
 }
 /*End of LOGO*/
