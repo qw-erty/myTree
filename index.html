@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="assets/mytree.jpg">
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/mytree-circle.png">
+  <script src="https://kit.fontawesome.com/0493c978ee.js" crossorigin="anonymous"></script>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <title>MYTrees</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,19 +22,20 @@
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+  </head>
 
 <body>
   <div class="navbar" id="mainnavbar">
     <div class="title">
       <span id="logo">
-        <img src="assets/mytree.jpg" height="64px" width="64px">
+        <img src="assets/mytree.jpg" class="logo" height="64px" width="64px">
       </span>MY TREE
     </div>
     <div class="navbar-right">
-      <a href="./pages/home/home.html">Home</a>
-      <a href="./pages/contact/index.html">Contact Us</a>
-      <a href="./pages/about/index.html">About Us</a>
+      <a href="/index.html">Home</a>
+      <a href="/pages/contact/index.html">Contact Us</a>
+      <a href="/pages/about/index.html">About Us</a>
 
     </div>
   </div>
@@ -232,13 +236,22 @@
       src="https://media4.giphy.com/media/3oxHQF2ikoMMGkiKwo/giphy.gif?cid=790b76117b04266be2239745f22710d79b2fe784eec65401&rid=giphy.gif&ct=g"
       alt=tree-gif>
   </center>
- 
+
   <footer class="panel-footer">
     <div class="container">
       <div class="footer">
-        <p>  Made with <span> &#128151</span> to love trees </p>
+        <p> Made with <span> &#128151</span> to love trees </p>
       </div>
       <div class="row">
+        <section id="links" class="col-md-6 col-lg-6">
+          <span>Follow us:</span><br>
+          <ul class="list-unstyled">
+            <li><a href="#" class="social_icon"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#" class="social_icon"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="#" class="social_icon"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+          <hr class="visible-xs">
+        </section>
         <section id="links" class="col-md-6 col-lg-6">
           <span>Links:</span><br>
           <ul class="list-unstyled">
@@ -248,7 +261,7 @@
           </ul>
           <hr class="visible-xs">
         </section>
-        <section id="quote" class="col-md-6 col-lg-6">
+        <section id="quote" class="col-md-12 col-lg-12">
           <p>
             “A tree is our most intimate contact with nature.” ― George Nakashima
           </p>
@@ -260,8 +273,10 @@
           <div class="text-center">&copy; Copyright myTree, 2021</div>
         </section>
       </div>
-      </div>
+    </div>
   </footer>
+  
+  <script src="app.js"></script>
 </body>
 
 </html>
