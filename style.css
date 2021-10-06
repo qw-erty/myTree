@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap");
 h1 {
   color: #32502e;
   font-family: "Oleo Script", sans-serif;
@@ -9,16 +9,13 @@ h1 {
 body {
   background-color: wheat;
 }
-center{
+center {
   margin-bottom: 20px;
 }
 center h1 {
-  
-  font-family: 'Cormorant Garamond',
-  serif;
+  font-family: "Cormorant Garamond", serif;
   font-size: 5vw;
   text-align: center;
-
 }
 .container {
   margin: 10px;
@@ -138,6 +135,7 @@ header > h1 {
 }
 #links > span {
   font-size: 1.3em;
+  font-weight: bold;
 }
 
 #quote {
@@ -156,4 +154,11 @@ header > h1 {
 
 .panel-footer a:hover {
   text-decoration: none;
+}
+.social_icon i {
+  font-size: 20px;
+  color: #fff;
+}
+.social_icon i:hover {
+  color: darkgreen;
 }
