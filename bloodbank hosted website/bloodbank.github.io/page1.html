@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="page1.css">
+    <script src="login2.js"></script>
+
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+           
+       <li><a href="home.html">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="login.html">Login/Signup</a></li>
+         </ul>
+         <div class="rightNav v-class-resp">
+             <input type="text" name="search" id="search" placeholder="Search">
+            
+
+         </div>
+         <div class="burger">
+             <div class="line"></div>
+             <div class="line"></div>
+             <div class="line"></div>
+         </div>
+         </nav>
+</head>
+
+<body>
+   
+
+ 
+   <div class="container">
+    <div class="card">
+        <div class="content">
+            <h2>01</h2>
+            <h3>Blood Storage</h3>
+            <h3><a href="bloodstorage.html"> Update Database</a></h3>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="content">
+            <h2>02</h2>
+            <h3>Blood Storage</h3>
+            <h3><a href="http://localhost/phpmyadmin/index.php?route=/sql&server=1&db=bloodstorage&table=bloodstorage&pos=0">View Database</a></h3>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="content">
+            <h2>03</h2>
+            <h3>Plasma Storage</h3>
+            <h3><a href="plasmadata.html">Update Database</a></h3>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="content">
+            <h2>04</h2>
+            <h3>Plasma Storage</h3>
+            <h3><a href="http://localhost/phpmyadmin/index.php?route=/sql&server=1&db=bloodstorage&table=plasmadata&pos=0">View Database</a></h3>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="vanilla-tilt.js"></script>   
+    <script>VanillaTilt.init(document.querySelectorAll(".card"),{
+		max: 25,
+		speed: 400,
+        glare: true,
+        "max-glare":1,
+	});</script>
+    
+
+</body>
+
+</html>
