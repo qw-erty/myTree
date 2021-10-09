@@ -47,17 +47,19 @@ header > h1 {
 
 /* Navbar */
 .navbar {
-  border-radius: 15px;
   font-weight: bold;
   background-color: #85a88a;
   overflow: hidden;
 }
-
-.navbar a,
+.navbar a {
+  color: #32502e;
+  padding-left: 25px;
+  text-decoration: none;
+}
 .navbar div.title {
+  padding-left: 25px;
   float: left;
   color: #32502e;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -68,9 +70,14 @@ header > h1 {
 }
 
 .navbar a:hover {
-  background-color: #7e9e81;
+  color: #fff;
+}
+i {
+  color: #fff;
+  font-size: 25px;
 }
 .navbar-right {
+  margin-right: 100px;
   float: right;
 }
 
@@ -90,6 +97,7 @@ header > h1 {
 
 /*LOGO*/
 .logo {
+  padding: 10px;
   border-radius: 50%;
 }
 /*End of LOGO*/
