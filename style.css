@@ -130,6 +130,19 @@ header > h1 {
   margin: 0px auto;
   padding: 20px 0px 20px 0px;
 }
+.footer p {
+  color: #32502e;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 0;
+}
+.footer i {
+  color: #fff;
+}
+.footer p:hover {
+  color: #fff;
+  font-size: 50px;
+}
 
 #links {
   line-height: 2;
@@ -149,11 +162,13 @@ header > h1 {
 }
 
 .panel-footer a {
-  color: #32502e;
+  color: #fff;
+  font-weight: bold;
   text-decoration: none;
 }
 
 .panel-footer a:hover {
+  color: #32502e;
   text-decoration: none;
 }
 .social_icon i {
