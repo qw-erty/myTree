@@ -182,14 +182,3 @@ header > h1 {
 .social_icon i:hover {
   color: darkgreen;
 }
-
-.more-trees a {
-  text-decoration: none;
-  font-size: 50px;
-  color: #32502e;
-  font-family: "Oleo Script";
-}
-
-.more-tree a :hover {
-  text-decoration: none;
-}
