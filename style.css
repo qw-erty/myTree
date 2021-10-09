@@ -70,6 +70,10 @@ header > h1 {
 .navbar a:hover {
   background-color: #7e9e81;
 }
+.nav-link:hover {
+  border-bottom: 2px solid blue;
+  color: blue;
+}
 .navbar-right {
   float: right;
 }
