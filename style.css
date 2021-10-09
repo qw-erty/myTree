@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 h1 {
   color: #32502e;
   font-family: "Oleo Script", sans-serif;
@@ -9,6 +9,7 @@ h1 {
 
 body {
   background-color: wheat;
+  font-family: "Montserrat", sans-serif;
 }
 center {
   margin-bottom: 20px;
@@ -28,6 +29,9 @@ center h1 {
 header > h1 {
   align-items: center;
   margin: 5px 0 0 0;
+}
+#img {
+  max-width: 450px;
 }
 .footer {
   position: relative;
