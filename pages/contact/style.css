@@ -21,7 +21,9 @@
   }
   
   .navbar a:hover {
-    background-color: #7e9e81;
+    background-color: #59b462;
+    border-radius: 10%;
+    color: #0a3304;
   }
   .navbar-right {
     float: right;
