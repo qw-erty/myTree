@@ -47,30 +47,37 @@ header > h1 {
 
 /* Navbar */
 .navbar {
-  border-radius: 15px;
   font-weight: bold;
   background-color: #85a88a;
   overflow: hidden;
 }
-
-.navbar a,
-.navbar div.title {
+.navbar a {
   float: left;
   color: #32502e;
-  padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+}
+.navbar div.title {
+  float: left;
+  margin-left: 25px;
+  color: #32502e;
+  text-decoration: none;
+  font-size: 15px;
 }
 
 .navbar div.title {
   color: #32502e;
   font-family: "Oleo Script";
 }
-
+.navbar-right {
+  margin-right: 100px;
+}
+.navbar-right a {
+  margin-left: 25px;
+}
 .navbar a:hover {
-  background-color: #59b462;
   border-radius: 10%;
-  color: #0a3304;
+  color: #fff;
 }
 .navbar-right {
   float: right;
@@ -93,6 +100,7 @@ header > h1 {
 /*LOGO*/
 .logo {
   border-radius: 50%;
+  padding: 10px;
 }
 /*End of LOGO*/
 
