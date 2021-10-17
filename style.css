@@ -145,7 +145,7 @@ header > h1 {
 
 .panel-footer {
   border-top: 0;
-  position: relative;
+  position: initial;
   left: 0;
   bottom: 0;
   width: 100%;
