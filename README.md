@@ -1,4 +1,5 @@
 # myTree
+
 to help people grow more trees
 
 You can check the site development at :https://qw-erty.github.io/myTree/
@@ -7,6 +8,7 @@ The aim of this repo is to create a project which has the trees photos and their
 If you don't know how you can add a tree on the page. Don't worry . We have got you covered.
 
 Code-
+
 ```
 <!-- Tree start -->
 <div class="container justify-content-center">
@@ -24,6 +26,7 @@ Code-
   <hr>
   <!-- Tree end -->
 ```
+
 You can copy the code above and paste it in the index.html file and make your changes.
 Do make sure that the tree that is being added is not already present in the file.
 
